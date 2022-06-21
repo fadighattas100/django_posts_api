@@ -8,7 +8,7 @@ with open(os.path.join(this_dir, "README.md"), "rb") as fo:
 
 setup(
     name="django_posts_api",
-    version="0.0.3",
+    version="0.0.4",
     author="Fadi Ghattas",
     author_email="fadighattas100@outlook.com",
     description="A small example plugin package",
@@ -18,7 +18,7 @@ setup(
     project_urls={
         "Bug Tracker": "https://github.com/fadighattas100/django_posts_api/issues",
     },
-    download_url="https://github.com/fadighattas100/django_posts_api/blob/master/dist/django_posts_api-0.0.3.tar.gz",
+    download_url="https://github.com/fadighattas100/django_posts_api/blob/master/dist/django_posts_api-0.0.4.tar.gz",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
