@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "django-posts-api"
-version = "0.0.5"
+version = "0.0.15"
 description = "A small example plugin package"
 readme = "README.md"
 authors = [{ name = "Fadi Ghattas", email = "fadoghattas100@outlook.com" }]
@@ -14,7 +14,7 @@ classifiers = [
     "Programming Language :: Python",
     "Programming Language :: Python :: 3",
 ]
-keywords = ["posts_api", "tutorial"]
+keywords = ["posts-api", "tutorial"]
 dependencies = ["html2text", 'tomli; python_version < "3.11"']
 requires-python = ">=3.8"
 
@@ -31,7 +31,7 @@ requires-python = ">=3.8"
 
 
 [tool.bumpver]
-current_version = "0.0.5"
+current_version = "0.0.15"
 version_pattern = "MAJOR.MINOR.PATCH"
 commit_message  = "bump version {old_version} -> {new_version}"
 commit          = true
@@ -52,9 +52,11 @@ import_heading_stdlib     = "Standard library imports"
 import_heading_thirdparty = "Third party imports"
 import_heading_firstparty = "django_posts_api imports"
 
+
+
 [tool.mypy]
 strict = true
 
-#    [[tool.mypy.overrides]]
+    [[tool.mypy.overrides]]
 #    module                 = "feedparser"
-#    ignore_missing_imports = true
+    ignore_missing_imports = true
